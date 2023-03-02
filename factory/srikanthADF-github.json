@@ -1,0 +1,9 @@
+{
+	"name": "srikanthADF-github",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "fbaff571-43cd-4766-abaf-a3f8dee508c1",
+		"tenantId": "dae0f1bf-c17b-400c-b947-3deb776c40f0"
+	}
+}

@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "srikanthADF-github"
 		},
+		"srikanthlinkedservice_connectionString": {
+			"value": ""
+		},
 		"containerUri": {
 			"value": ""
 		},

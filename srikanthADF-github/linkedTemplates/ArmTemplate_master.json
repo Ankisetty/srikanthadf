@@ -7,6 +7,10 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "srikanthADF-github"
 		},
+		"srikanthlinkedservice_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'srikanthlinkedservice'"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -33,6 +37,9 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"srikanthlinkedservice_connectionString": {
+						"value": "[parameters('srikanthlinkedservice_connectionString')]"
 					}
 				}
 			},
